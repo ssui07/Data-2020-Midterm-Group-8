@@ -12,10 +12,23 @@ The dataset for our project comes from thecensus data taken from the 2015 Americ
 
 The originial dataset contains 36 columns and 2168 rows.
 
-It contains the information includes income, income percapita, total population, gender distribution, racial distribution, citizenship, poverty rate, job type, employment rate, employment type, poverty level etc.
+It contains the information includes *income, income percapita, total population, gender distribution, racial distribution, citizenship, poverty rate, job type, employment rate, employment type, poverty level etc.*
 
-One characteristic of the data 
+One characteristic of the data set is many categorical variables are complemental. Here are the examples:
 
+*By Gender: Men, Women*
+
+*By Race: Hispanic, White, Black, Native, Asian*
+
+*By Citizenship: Citizen, Non-citizen*
+
+*By Job Type: Professional, Service, Office, Construction, Production*
+
+*By Commute Type: Drive, Carpool, Transit, Walk, OtherTransp, WorkAtHome*
+
+*By Employment Type: PrivateWork, PublicWork, SelfEmployed*
+
+In order to reduce bias, we would delete some varibles or add interaction terms.
 
 ## Purpose
 
