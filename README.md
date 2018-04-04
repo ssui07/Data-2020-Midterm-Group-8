@@ -2,7 +2,7 @@
 
 
 
-Contributor:
+Contributors:
 Siyao Sui, Chuqing Wang, Xiao Sun
 
 
@@ -28,13 +28,15 @@ One characteristic of the data set is many categorical variables are complementa
 
 *By Employment Type: PrivateWork, PublicWork, SelfEmployed*
 
-In order to reduce bias, we would delete some varibles or add interaction terms.
+In order to reduce bias and potential heteroskedasticity, we would delete some varibles or add interaction terms.
 
 ## Purpose
 
 We are trying to perform regression analysis on the census data by constructing good estimation models for median household income and income per capita. Therefore, we treat median household income and income per capita as dependent variables and all the other variables as independent variables. 
 
 Meanwhile, we would investigate the causal effect relationship between the variables as well as their strength of impact on income in NYC and the surrounding area (NJ etc.). We would also visualisze the income level in different areas around NYC. 
+
+At last, we would compare the prediciton model for median household income with the prediction model for income per capita.
 
 
 ## Choices of Models 
