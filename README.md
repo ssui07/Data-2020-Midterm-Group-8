@@ -5,6 +5,17 @@
 Contributor:
 Siyao Sui, Chuqing Wang, Xiao Sun
 
+
+## Data
+
+We used New York City census data taken from the 2015 American Community Survey 5-Year Estimates. 
+
+Independent variables’ information includes total population, gender distribution, racial distribution, citizenship, poverty rate, job type, employment rate, employment type, etc.
+
+
+
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
