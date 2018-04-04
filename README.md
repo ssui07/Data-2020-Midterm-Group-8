@@ -13,7 +13,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
-## Header 2 Data 2020 Midterm 
+## Data 2020 Midterm 
 ### Header 3
 
 - Bulleted
