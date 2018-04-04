@@ -3,9 +3,7 @@
 
 
 Contributor:
-Siyao Sui
-Chuqing Wang
-Xiao Sun
+Siyao Sui, Chuqing Wang, Xiao Sun
 
 ### Markdown
 
