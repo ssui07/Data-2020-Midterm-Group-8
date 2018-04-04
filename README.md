@@ -8,9 +8,28 @@ Siyao Sui, Chuqing Wang, Xiao Sun
 
 ## Data
 
-We used New York City census data taken from the 2015 American Community Survey 5-Year Estimates. 
+The dataset for our project comes from thecensus data taken from the 2015 American Community Survey 5-Year Estimates. 
 
-Independent variables’ information includes total population, gender distribution, racial distribution, citizenship, poverty rate, job type, employment rate, employment type, etc.
+The originial dataset contains 36 columns and 2168 rows.
+
+It contains the information includes income, income percapita, total population, gender distribution, racial distribution, citizenship, poverty rate, job type, employment rate, employment type, poverty level etc.
+
+One characteristic of the data 
+
+
+## Purpose
+
+We are trying to perform regression analysis on the census data by constructing good estimation models for median household income and income per capita. Therefore, we treat median household income and income per capita as dependent variables and all the other variables as independent variables. 
+
+Meanwhile, we would investigate the causal effect relationship between the variables as well as their strength of impact on income in NYC and the surrounding area (NJ etc.). We would also visualisze the income level in different areas around NYC. 
+
+
+## Choices of Models 
+
+
+
+
+
 
 
 
