@@ -38,21 +38,27 @@ Meanwhile, we would investigate the causal effect relationship between the varia
 
 At last, we would compare the prediciton model for median household income with the prediction model for income per capita.
 
+## General Descripitions of Explanatory Variables
+
+
+
 
 ## Choices of Models 
 
 We decided to use the following regression models.
 
 *1.General Linear Regression*
+
 *2.Multiple Linear Regression*
+
 *3.Ridge Regression*
+
 *4.Stepwise Regression*
 
 
 ## Testing the Prediction Accuracy
 
-
-
+We divide the dataset into one training set and one testing set randomly. We conducted model selections on the training set, and applied the model onto the testing set. For each sample in the testing set, we made prediciton using the selected model and constructed an confidence interval for the prediction value. If the actual value of income or income per capita falls into the range of the predicition's confidence interval, we think this prediction is accurate. 
 
 
 
