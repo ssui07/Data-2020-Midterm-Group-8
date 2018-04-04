@@ -41,6 +41,17 @@ At last, we would compare the prediciton model for median household income with 
 
 ## Choices of Models 
 
+We decided to use the following regression models.
+
+*1.General Linear Regression*
+*2.Multiple Linear Regression*
+*3.Ridge Regression*
+*4.Stepwise Regression*
+
+
+## Testing the Prediction Accuracy
+
+
 
 
 
