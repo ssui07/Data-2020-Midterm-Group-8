@@ -1,6 +1,6 @@
-## Data 2020 Midterm Project
+## What Factors Impact NYC Median Household Income?
 
-
+This site hosts the midterm project for Data2020.
 
 Contributors:
 Siyao Sui, Chuqing Wang, Xiao Sun
@@ -8,13 +8,13 @@ Siyao Sui, Chuqing Wang, Xiao Sun
 
 ## Data
 
-The dataset for our project comes from thecensus data taken from the 2015 American Community Survey 5-Year Estimates. 
+The dataset for our project comes from the New York City census data taken from the 2015 American Community Survey 5-Year Estimates. 
 
 The originial dataset contains 36 columns and 2168 rows.
 
-It contains the information includes *income, income percapita, total population, gender distribution, racial distribution, citizenship, poverty rate, job type, employment rate, employment type, poverty level etc.*
+It contains information including *income, income percapita, total population, gender distribution, racial distribution, citizenship, poverty rate, job type, employment rate, employment type, poverty level etc.*
 
-One characteristic of the data set is many categorical variables are complemental. Here are the examples:
+Some of the categorical variables are complemental (percentage sum to 100%):
 
 *By Gender: Men, Women*
 
@@ -28,15 +28,9 @@ One characteristic of the data set is many categorical variables are complementa
 
 *By Employment Type: PrivateWork, PublicWork, SelfEmployed*
 
-In order to reduce bias and potential heteroskedasticity, we would delete some varibles or add interaction terms.
-
 ## Purpose
 
-We are trying to perform regression analysis on the census data by constructing good estimation models for median household income and income per capita. Therefore, we treat median household income and income per capita as dependent variables and all the other variables as independent variables. 
-
-Meanwhile, we would investigate the causal effect relationship between the variables as well as their strength of impact on income in NYC and the surrounding area (NJ etc.). We would also visualisze the income level in different areas around NYC. 
-
-At last, we would compare the prediciton model for median household income with the prediction model for income per capita.
+We wants to perform regression analysis on the census data by constructing good estimation models for median household income and income per capita. By analyzing and comparing these two models, we can investigate the causal effect relationship between the predictors as well as their strength of impact on income in NYC and the surrounding area.
 
 ## General Descripitions of Explanatory Variables
 
