@@ -90,6 +90,7 @@ The NYC Median Household Income distribution is heavily right-skewed and has man
 
 Image on the left shows the relationship between Mean Commute time to Work and Income; image on the right shows relationship between Percentage of People Driving to Work and Income.
 Both the graphs and our model implicate that less cummute time to work and driving to work are positively correlated to Median Household Income. 
+Median household income near Manhahttan is the highest, while commute time around this area is lowest (and percentage of driving to work is highest). This finding is reasonable and explains the difference of Income level amongst different areas.
 
 ### Poverty Level vs. Income
 ![PovertyMap](/Poverty.png)
