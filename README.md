@@ -61,9 +61,11 @@ We divide the dataset into one training set and one testing set randomly. We con
 
 ## Visualization and Observasions
 
+### Income Distribution
+![incomeDist](/Income Distribution.png) 
 ### Income Heatmap
 ![incomeMap](/Income.png) 
-### (left:) Commute Time vs. Income;  (right:) Commuters traveling by Drive vs. Income
+### (left) Commute Time vs. Income;  (right) Commuters traveling by Drive vs. Income
 ![CommuteTypeMap](/Commute.png)
 ### Poverty Level vs. Income
 ![PovertyMap](/Poverty.png)
