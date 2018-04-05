@@ -89,12 +89,14 @@ The NYC Median Household Income distribution is heavily right-skewed and has man
 ![CommuteTypeMap](/Commute.png)
 
 Image on the left shows the relationship between Mean Commute time to Work and Income; image on the right shows relationship between Percentage of People Driving to Work and Income.
-Both the graphs and our model implicate that less cummute time to work and driving to work are positively correlated to Median Household Income.
+Both the graphs and our model implicate that less cummute time to work and driving to work are positively correlated to Median Household Income. 
 
 ### Poverty Level vs. Income
 ![PovertyMap](/Poverty.png)
 
-Graph suggests that Poverty Level is negatively correlated to Income.
+The plot above suggests that Poverty Level is generally negatively correlated to Income.
+
+Plots below suggests that predictors such as population size, gender, race, and job type have certain impact on Income levels but are not as highly correlated as the ones mentioned above.
 
 ### Population Size vs. Income
 ![TotalPopMap](/TotalPop.png) 
