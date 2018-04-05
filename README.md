@@ -61,6 +61,10 @@ We divide the dataset into one training set and one testing set randomly. We con
 
 ## Visualization and Observasions
 
+![incomeMap](/Income.png)
+
+![CommuteTypeMap](/CommuteType.png)
+
 
 
 
