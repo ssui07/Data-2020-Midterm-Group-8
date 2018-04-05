@@ -1,4 +1,4 @@
-## What Factors Impact NYC Median Household Income?
+# What Factors Impact NYC Median Household Income?
 
 This site hosts the midterm project for Data2020.
 
@@ -30,14 +30,20 @@ Some of the categorical variables are complemental (percentage sum to 100%):
 
 ## Purpose
 
-We wants to perform regression analysis on the census data by constructing good estimation models for median household income and income per capita. By analyzing and comparing these two models, we can investigate the causal effect relationship between the predictors as well as their strength of impact on income in NYC and the surrounding area.
+We want to perform regression analysis on the census data by constructing good estimation models for median household income and income per capita. By analyzing and comparing these two models, we can investigate the causal effect relationship between the predictors as well as their strength of impact on income in NYC and the surrounding area.
 
-## General Descripitions of Explanatory Variables
+We want to study the data set and develop some insights by investigating the following:
+
+- What is the distribution of income in the given NYC area?
+- What impact do gender, race, citizenship, job type, commute type and employment type have on income levels?
+- What impact does median household income have on poverty levels?
+- What impact does commute time to workplace have on income levels?
+
+## Methodology
 
 
 
-
-## Choices of Models 
+### Choices of Models 
 
 We decided to use the following regression models.
 
@@ -49,10 +55,13 @@ We decided to use the following regression models.
 
 *4.Stepwise Regression*
 
-
-## Testing the Prediction Accuracy
+### Testing the Prediction Accuracy
 
 We divide the dataset into one training set and one testing set randomly. We conducted model selections on the training set, and applied the model onto the testing set. For each sample in the testing set, we made prediciton using the selected model and constructed an 95% confidence interval for the prediction value. If the actual value of income or income per capita falls into the range of the predicition's confidence interval, we think this prediction is accurate. 
+
+## Visualization and Observasions
+
+
 
 
 
@@ -85,10 +94,4 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ssui07/Data-2020-Midterm-Group-8/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
