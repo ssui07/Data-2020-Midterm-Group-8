@@ -83,7 +83,7 @@ The NYC Median Household Income distribution is heavily right-skewed and has man
 ### Income Heatmap
 ![incomeMap](/Income.png) 
 
-50 records are chosen randomly from the data set to plot following maps.
+*50 records are chosen randomly from the data set to plot the circles on the following maps. Radius of each circle corresponds to different predictor magnitudes.*
 
 ### (left) Commute Time vs. Income;  (right) Commuters traveling by Drive vs. Income
 ![CommuteTypeMap](/Commute.png)
