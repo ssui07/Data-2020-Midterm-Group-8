@@ -111,13 +111,13 @@ Plots below suggests that predictors such as population size, gender, race, and 
 #### Conclusions & Implications
 
 ### Final Model for Household Median Income Prediction
-Comparing the prediction accuracies, the *Best Subset Regression* model stands out as the best model.
+Comparing the prediction accuracies, the *Best Subset Regression* model stands out as the best model. In order to increase the R-sqaured,we take the log of the household median income as the explained varible.
 
 ### Final Model for Income per Capita Prediction
-In this case, the *Best Subset Regression* model still yields the best accuracy.
+In this case, the *Best Subset Regression* model still yields the best accuracy. We transformed the income per capita into the log form. 
 
 ### Conclusion for the Household Median Income Prediction
-
+The best 
 
 ### Conclusion for the Income per Capita Prediction Model
 
