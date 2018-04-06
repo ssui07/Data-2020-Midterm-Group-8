@@ -108,3 +108,6 @@ Plots below suggests that predictors such as population size, gender, race, and 
 ### Professional(Management,business,science and arts) Jobs vs. Income
 ![ProfessionalMap](/Professional.png)
 
+#### Conclusions & Implications
+
+### Final Model for Household Median Income Prediction
