@@ -102,20 +102,20 @@ Plots below suggests that predictors such as population size, gender, race, and 
 ### Population Size vs. Income
 ![TotalPopMap](/TotalPop.png) 
 
-The region where less people live may have a higher income level.
+The region where more people live may have a lower income level.
 ### Male Percentage vs. Income
 ![MenMap](/Men.png)
 
-The plot suggests that the amount of male influence the income positively.
+The plot suggests that the amount of male influences the income positively.
 
 ### White People Percentage vs. Income
 ![WhiteMap](/White.png)
 
-The regions with more white people tends to earn higher income.
+The regions with more white people tend to earn higher income.
 
 ### Professional(Management,business,science and arts) Jobs vs. Income
 ![ProfessionalMap](/Professional.png)
-The professional rate has a positive correlation with the income.
+A higher professional rate would slightly increase the income level.
 
 ## Conclusions & Implications
 
