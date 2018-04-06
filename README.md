@@ -117,7 +117,9 @@ Comparing the prediction accuracies, the *Best Subset Regression* model stands o
 In this case, the *Best Subset Regression* model still yields the best accuracy. We transformed the income per capita into the log form. 
 
 ### Conclusion for the Household Median Income Prediction
-The best 
+The best model contains 27 variables including, total population, gender,citizenship, race, employment type, commute type, etc. 
+
+It also includes three interaction terms, which are Poverty with ChildPoverty, Professional with Servive, and IncomePerCap with IncomePerCapErr. 
 
 ### Conclusion for the Income per Capita Prediction Model
 
