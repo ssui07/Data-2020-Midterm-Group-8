@@ -144,16 +144,13 @@ The model results in a very high R-square--0.9637, which means 96.37% of the inc
 #### Comparison between two models
 The prediction model for income has more variables than the prediction model for income per capita.
 
-One of the interesting thing is that many varibles influence the income and income per cap in different ways. 
+One of the interesting things is that many varibles influence the income and the income per cap in different ways. Asian rate influences the household median income negatively but influences the income per capita positively. At the same time, higher commute time would increase median household income but decrease income per capita. The possible reason for this phenomenon would be all the coefficients in the model are very small, they could be very sensitive to the change of other variables in the model. We could also see that the median household income and the income per capita contain different kinds of information. We could not treat them as similar factors. 
 
 We also visualized the feature importance of the Income Prediction Model and the Income Per Cap Prediction Model using random forest. “Men”, “Office”, “Hispanic”, “Income Err” and “Total Population” are five most important features for both models. income and income per capita are highly correlated (correlation is about 0.84) but are not important features to each other. Income error is more important than income per capita error, probably because it contains more information. In addition, poverty rate is an important indicator of income level both from regression analysis and common sense. And mean commute time and commute type also have strong causal relationship with Income and Income per capita.
 
 
 ### Conclusion
-From the prediction models, we know that, the factor such as citizenship and labor force size  and professional rate could bring positive effects to both the median household income and income per capita. However, the factors, such as poverty level, unemployment rate 
+From the prediction models, we know that, the factors such as citizenship and riving rate, could bring positive effects to both the median household income and the income per capita. However, the factors such as poverty level and unemployment rate, would influence the income and the income per capita negatively.
 
-Placing the two models together, we can see that most of the variables in the Income Per Capita model are included in the Income prediction model, which explains to some degree that Income and Income Per Capita shares a significant amount of elements when trying to make predictions. The fact that Income model has more variables than Income Per Capita model suggests that median household income contains more information than simply adding up per capita of every member. Some of the coefficients of 
+Placing the two models together, we can see that most of the variables in the Income Per Capita model are included in the Income prediction model, which explains to some degree that Income and Income Per Capita shares a significant amount of elements when trying to make predictions. The fact that Income model has more variables than Income Per Capita model suggests that median household income contains more information than simply adding up per capita of every member. Some of the coefficients of have completely different effects in these two models, which brings us a thought that the median household income could not reflect the average income level in one region 
 
-- What impact do gender, race, citizenship, job type, commute type and employment type have on income levels?
-- What impact does median household income have on poverty levels?
-- What impact does commute time to workplace have on income levels?
