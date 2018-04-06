@@ -101,10 +101,14 @@ Plots below suggests that predictors such as population size, gender, race, and 
 
 ### Population Size vs. Income
 ![TotalPopMap](/TotalPop.png) 
+
 ### Male Percentage vs. Income
 ![MenMap](/Men.png)
 ### White People Percentage vs. Income
 ![WhiteMap](/White.png)
+
+The regions with more white people tends to earn  higher income.
+
 ### Professional(Management,business,science and arts) Jobs vs. Income
 ![ProfessionalMap](/Professional.png)
 
@@ -116,14 +120,19 @@ Comparing the prediction accuracies, the *Best Subset Regression* model stands o
 ### Final Model for Income per Capita Prediction
 In this case, the *Best Subset Regression* model still yields the best accuracy. We transformed the income per capita into the log form. 
 
-### Conclusion for the Household Median Income Prediction
+### Results in the Household Median Income Prediction Model
 The best model contains 27 variables including, total population, gender,citizenship, race, employment type, commute type, etc. 
 
-It also includes three interaction terms, which are Poverty with ChildPoverty, Professional with Servive, and IncomePerCap with IncomePerCapErr. 
+It also includes three interaction terms, which are Poverty with ChildPoverty, Professional with Servive, and IncomePerCap with IncomePerCapErr. Each pair of variables influence each other internally. For example, higher poverty level would lead to higher child poverty level. Adding interaction terms would help us yield a more accurate model.
 
-### Conclusion for the Income per Capita Prediction Model
+Among all the variables, poverty rate and native rate possess reatively large coefficients. As the poverty rate increase by 1 percent, the income would decrease by 0.017 percent approximately. As the native rate increases by 1 percent, the income would decrease by 0.026 percent approximatly. These results make sense because 
+
+### Results for the Income per Capita Prediction Model
 
 
 ### Comparsion bewteen the *Household Median Income Prediction Model* and the *Income per Capita Prediction Model*
 
+
+In addition, we visualized the feature importance of Income and Income Per Cap using random forest. “Men”, “Office”, “Hispanic”, “Income Err” and “Total Population” are the top 5 most important features for both models, followed by others. Income and Income per capita are highly correlated (correlation is about 0.84) but are not important features to each other. Income error
+is more important than income per capita error, probably because it contains more information about income and income per cap. In addition, poverty rate is an important indicator of income level (and vice versa) both from regression analysis and common sense. And mean commute time and commute type also have strong causal relationship with Income and Income per capita.
 
