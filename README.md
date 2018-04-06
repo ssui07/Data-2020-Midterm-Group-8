@@ -125,12 +125,12 @@ The best model contains 27 variables including, total population, gender,citizen
 
 It also includes three interaction terms, which are Poverty with ChildPoverty, Professional with Servive, and IncomePerCap with IncomePerCapErr. Each pair of variables influence each other internally. For example, higher poverty level would lead to higher child poverty level. Adding interaction terms would help us yield a more accurate model.
 
-Among all the variables, poverty rate and native rate possess reatively large coefficients. As the poverty rate increase by 1 percent, the income would decrease by 0.017 percent approximately. As the native rate increases by 1 percent, the income would decrease by 0.026 percent approximatly. These results make sense because 
+Among all the variables, poverty rate and native rate possess relatively large coefficients. As the poverty rate increase by 1 percent, the income would decrease by 0.017 percent approximately. As the native rate increases by 1 percent, the income would decrease by 0.026 percent approximatly. These results make sense because higher poverty rate means more people in this region make very low income. At the same time, higher native rate means that less people are not local. Generally, nonnative people make higher income because they choose to move to NYC for high salaries.
 
 ### Results for the Income per Capita Prediction Model
 
 
-### Comparsion bewteen the *Household Median Income Prediction Model* and the *Income per Capita Prediction Model*
+### Comparsion bewteen the Household Median Income Prediction Model and theIncome per Capita Prediction Model
 
 
 In addition, we visualized the feature importance of Income and Income Per Cap using random forest. “Men”, “Office”, “Hispanic”, “Income Err” and “Total Population” are the top 5 most important features for both models, followed by others. Income and Income per capita are highly correlated (correlation is about 0.84) but are not important features to each other. Income error
