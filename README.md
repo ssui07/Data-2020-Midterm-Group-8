@@ -113,22 +113,22 @@ The regions with more white people tends to earn  higher income.
 ![ProfessionalMap](/Professional.png)
 
 
-#### Conclusions & Implications
+## Conclusions & Implications
 
-## Final Model for Household Median Income Prediction
+#### Final Model for Household Median Income Prediction
 Comparing the prediction accuracies, the *Best Subset Regression* model stands out as the best model. In order to increase the R-sqaured,we took the log of the household median income as the explained varible.
 
-## Final Model for Income per Capita Prediction
+#### Final Model for Income per Capita Prediction
 In this case, the *Best Subset Regression* model still yields the best accuracy. We transformed the income per capita into the log form. 
 
-## Results in the Household Median Income Prediction Model
+#### Results in the Household Median Income Prediction Model
 The best model contains 27 variables including, total population, gender, citizenship, race, employment type, commute type, etc. 
 
 It also includes three interaction terms, which are Poverty with ChildPoverty, Professional with Servive, and IncomePerCap with IncomePerCapErr. Each pair of variables influence each other internally. For example, higher poverty level would lead to higher child poverty level. Adding interaction terms would help us yield a more accurate model.
 
 Among all the variables, poverty rate and native rate possess relatively large coefficients. As the poverty rate increase by 1 percent, the income would decrease by 0.017 percent approximately. As the native rate increases by 1 percent, the income would decrease by 0.026 percent approximatly. These results make sense because higher poverty rate means more people in this region make very low income. At the same time, higher native rate means that less people are not local. Generally, nonnative people make higher income because they choose to move to NYC for high salaries.
 
-## Results in the Income per Capita Prediction Model
+#### Results in the Income per Capita Prediction Model
 The best model possesses 23 variables, which include total population, gender, poverty level, labor force size, commute type, etc.
 
 It also includes three interaction terms: Poverty with ChildPoverty, Professional with Service, and TotalPopulation with Employed.
@@ -137,11 +137,11 @@ The poverty rate and citizens' amount yield large coefficients in the model. As 
 
 The model results in a very high R-squared--0.9637, which means 96.37% of the income per capita could be explained by the variables that we found. 
 
-## Comparison between the Household Median Income Prediction Model and theIncome per Capita Prediction Model 
+#### Comparison between the Household Median Income Prediction Model and theIncome per Capita Prediction Model 
 
 In addition, we visualized the feature importance of Income and Income Per Cap using random forest. “Men”, “Office”, “Hispanic”, “Income Err” and “Total Population” are the top 5 most important features for both models, followed by others. Income and Income per capita are highly correlated (correlation is about 0.84) but are not important features to each other. Income error
 is more important than income per capita error, probably because it contains more information about income and income per cap. In addition, poverty rate is an important indicator of income level (and vice versa) both from regression analysis and common sense. And mean commute time and commute type also have strong causal relationship with Income and Income per capita.
 
 
-## Conclusion
+#### Conclusion
 Placing the two models together, we can see that all the 23 variables in the Income Per Capita model are all included in the 27-variables Income model, which explains to some degree that Income and Income Per Capita shares a significant amount of elements when trying to make predictions. The 15 fact that Income model has more variables than Income Per Capita model suggests that medianhousehold income contains more information than simply adding up per capita of every member.
