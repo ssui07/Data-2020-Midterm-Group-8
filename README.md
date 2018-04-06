@@ -119,20 +119,20 @@ A higher professional rate would slightly increase the income level.
 
 ## Conclusions & Implications
 
-#### Final Model for Household Median Income Prediction
+### Final Model for Median Household Income
 Comparing the prediction accuracies, the *Best Subset Regression* model stands out as the best model. In order to increase the R-sqaured,we took the log of the household median income as the explained varible.
 
-#### Final Model for Income per Capita Prediction
+### Final Model for Income per Capita 
 In this case, the *Best Subset Regression* model still yields the best accuracy. We transformed the income per capita into the log form. 
 
-#### Results in the Household Median Income Prediction Model
+### Results from the Median Household Income Prediction Model
 The best model contains 27 variables including, total population, gender, citizenship, race, employment type, commute type, etc. 
 
 It also includes three interaction terms, which are Poverty with ChildPoverty, Professional with Servive, and IncomePerCap with IncomePerCapErr. Each pair of variables influence each other internally. For example, higher poverty level would lead to higher child poverty level. Adding interaction terms would help us yield a more accurate model.
 
 Among all the variables, poverty rate and native rate possess relatively large coefficients. As the poverty rate increase by 1 percent, the income would decrease by 0.017 percent approximately. As the native rate increases by 1 percent, the income would decrease by 0.026 percent approximatly. These results make sense because higher poverty rate means more people in this region make very low income. At the same time, higher native rate means that less people are not local. Generally, nonnative people make higher income because they choose to move to NYC for high salaries.
 
-#### Results in the Income per Capita Prediction Model
+### Results from the Income per Capita Prediction Model
 The best model possesses 23 variables, which include total population, gender, poverty level, labor force size, commute type, etc.
 
 It also includes three interaction terms: Poverty with ChildPoverty, Professional with Service, and TotalPopulation with Employed.
@@ -141,7 +141,7 @@ The poverty rate and citizens' amount yield large coefficients in the model. As 
 
 The model results in a very high R-square--0.9637, which means 96.37% of the income per capita could be explained by the variables that we found. 
 
-#### Comparison between two models
+### Comparison Between Two Models
 The prediction model for income has more variables than the prediction model for income per capita.
 
 One of the interesting things is that many varibles influence the income and the income per cap in different ways. Asian rate influences the household median income negatively but influences the income per capita positively. At the same time, higher commute time would increase median household income but decrease income per capita. The possible reason for this phenomenon would be all the coefficients in the model are very small, they could be very sensitive to the change of other variables in the model. We could also see that the median household income and the income per capita contain different kinds of information. We could not treat them as similar factors. 
