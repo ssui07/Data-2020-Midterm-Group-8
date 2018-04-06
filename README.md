@@ -107,11 +107,11 @@ Plots below suggests that predictors such as population size, gender, race, and 
 ### White People Percentage vs. Income
 ![WhiteMap](/White.png)
 
-The regions with more white people tends to earn  higher income.
+The regions with more white people tends to earn higher income.
 
 ### Professional(Management,business,science and arts) Jobs vs. Income
 ![ProfessionalMap](/Professional.png)
-
+The professional rate has a positive correlation with the income
 
 ## Conclusions & Implications
 
@@ -135,13 +135,21 @@ It also includes three interaction terms: Poverty with ChildPoverty, Professiona
 
 The poverty rate and citizens' amount yield large coefficients in the model. As the poverty rate increases by 1 percent, the income per capita decreases by 0.0057 percent. At the same time, one more citizen in the region would bring a 0.0057 percent increase in income per capita. Generally, citizens are more easily to be hired by companies comparing to foreigners, and they tend to have better networking. These factors would potentially influence the income per capita.
 
-The model results in a very high R-squared--0.9637, which means 96.37% of the income per capita could be explained by the variables that we found. 
+The model results in a very high R-square--0.9637, which means 96.37% of the income per capita could be explained by the variables that we found. 
 
-#### Comparison between the Household Median Income Prediction Model and theIncome per Capita Prediction Model 
+#### Comparison between two models
+The prediction model for income has more variables than the prediction model for income per capita.
 
-In addition, we visualized the feature importance of Income and Income Per Cap using random forest. “Men”, “Office”, “Hispanic”, “Income Err” and “Total Population” are the top 5 most important features for both models, followed by others. Income and Income per capita are highly correlated (correlation is about 0.84) but are not important features to each other. Income error
-is more important than income per capita error, probably because it contains more information about income and income per cap. In addition, poverty rate is an important indicator of income level (and vice versa) both from regression analysis and common sense. And mean commute time and commute type also have strong causal relationship with Income and Income per capita.
+One of the interesting thing is that many varibles influence the income and income per cap in different ways. 
+
+We also visualized the feature importance of the Income Prediction Model and the Income Per Cap Prediction Model using random forest. “Men”, “Office”, “Hispanic”, “Income Err” and “Total Population” are five most important features for both models. income and income per capita are highly correlated (correlation is about 0.84) but are not important features to each other. Income error is more important than income per capita error, probably because it contains more information. In addition, poverty rate is an important indicator of income level both from regression analysis and common sense. And mean commute time and commute type also have strong causal relationship with Income and Income per capita.
 
 
-#### Conclusion
-Placing the two models together, we can see that all the 23 variables in the Income Per Capita model are all included in the 27-variables Income model, which explains to some degree that Income and Income Per Capita shares a significant amount of elements when trying to make predictions. The 15 fact that Income model has more variables than Income Per Capita model suggests that medianhousehold income contains more information than simply adding up per capita of every member.
+### Conclusion
+From the prediction models, we know that, the factor such as citizenship and labor force size  and professional rate could bring positive effects to both the median household income and income per capita. However, the factors, such as poverty level, unemployment rate 
+
+Placing the two models together, we can see that most of the variables in the Income Per Capita model are included in the Income prediction model, which explains to some degree that Income and Income Per Capita shares a significant amount of elements when trying to make predictions. The fact that Income model has more variables than Income Per Capita model suggests that median household income contains more information than simply adding up per capita of every member. Some of the coefficients of 
+
+- What impact do gender, race, citizenship, job type, commute type and employment type have on income levels?
+- What impact does median household income have on poverty levels?
+- What impact does commute time to workplace have on income levels?
